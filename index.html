@@ -1,104 +1,113 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Personal Branding - Full-Stack Dev & DevOps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mengalihkan ke OB IDX Screener...</title>
+  <meta id="meta-redirect" http-equiv="refresh" content="1; url=https://script.google.com/macros/s/AKfycbwxpoUPugh-U47w0pzYnyfeDRKLPIUlgZmac5jxErGd1xW8o9jV3UX5vE2af8dg6Ri4Rg/exec">
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --primary: #3b82f6;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border: #1f2937;
+    }
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
-    header {
-      background-color: #24292e;
-      color: white;
-      padding: 1rem 2rem;
+    body {
+      background-color: var(--bg-color);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 2.5rem;
+      max-width: 480px;
+      width: 100%;
       text-align: center;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
     }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 2rem;
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid rgba(59, 130, 246, 0.2);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1.5rem auto;
     }
-    h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.3rem;
-      margin-top: 2rem;
+    @keyframes spin {
+      to { transform: rotate(360deg); }
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.02em;
     }
-    li::before {
-      content: "✔️ ";
-      color: #4caf50;
+    p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 1.75rem;
     }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #888;
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .btn:hover {
+      background: #2563eb;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+    .note {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: #6b7280;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>👨‍💻 Full-Stack Developer & DevOps Engineer</h1>
-    <p>Personal Portfolio & Tech Stack Overview</p>
-  </header>
-
-  <section>
-    <h2>🖥️ Programming Languages</h2>
-    <ul>
-      <li>PHP</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Java</li>
-    </ul>
-
-    <h2>⚙️ Framework & Tools</h2>
-    <ul>
-      <li>Laravel</li>
-      <li>CodeIgniter 3</li>
-      <li>Zend Framework</li>
-      <li>Express.js</li>
-      <li>React.js</li>
-      <li>Vue.js</li>
-    </ul>
-
-    <h2>🗃️ Databases and Data Analyst</h2>
-    <ul>
-      <li>MySQL</li>
-      <li>PostgreSQL</li>
-      <li>SQL Server</li>
-      <li>Oracle</li>
-      <li>Metabase</li>
-    </ul>
-
-    <h2>🔧 Other Skils</h2>
-    <ul>
-      <li>Docker</li>
-      <li>Mikrotik</li>
-      <li>Proxmox</li>
-    </ul>
-
-    <h2>📌 About Me</h2>
-    <p>
-      Coding is not about ...
-    </p>
-    <h2>🔗 Contact</h2>
-    <ul>
-      <li><a href="https://github.com/oriezt" target="_blank">GitHub</a></li>
-      <li><a href="https://id.linkedin.com/in/noris-ibrahim-755462109" target="_blank">LinkedIn</a></li>
-    </ul>
-
-  </section>
-
-  <footer>
-    &copy; 2014 by Noris Ibrahim
-  </footer>
+  <div class="card">
+    <div class="spinner"></div>
+    <h1>Menghubungkan ke Screener...</h1>
+    <p>Anda sedang dialihkan ke dashboard <strong>OB IDX Screener</strong>.</p>
+    <a id="btn-redirect" class="btn" href="https://script.google.com/macros/s/AKfycbwxpoUPugh-U47w0pzYnyfeDRKLPIUlgZmac5jxErGd1xW8o9jV3UX5vE2af8dg6Ri4Rg/exec">
+      Buka Dashboard Sekarang &rarr;
+    </a>
+    <div class="note">
+      Jika halaman tidak berpindah otomatis dalam 3 detik, silakan klik tombol di atas.
+    </div>
+  </div>
+  <script>
+    const TARGET_URL = "https://script.google.com/macros/s/AKfycbwxpoUPugh-U47w0pzYnyfeDRKLPIUlgZmac5jxErGd1xW8o9jV3UX5vE2af8dg6Ri4Rg/exec";
+    document.getElementById("btn-redirect").href = TARGET_URL;
+    document.getElementById("meta-redirect").content = "1; url=" + TARGET_URL;
+    try {
+      window.location.replace(TARGET_URL);
+    } catch (e) {
+      window.location.href = TARGET_URL;
+    }
+  </script>
 </body>
 </html>
