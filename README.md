@@ -1,9 +1,9 @@
-# 📊 OB IDX Screener Dashboard (v2.9.0)
+# 📊 OB IDX Screener Dashboard (v2.9.7)
 
 [![Launch App](https://img.shields.io/badge/Launch-Web%20App%20Dashboard-blue?style=for-the-badge&logo=google)](https://script.google.com/macros/s/AKfycbwxpoUPugh-U47w0pzYnyfeDRKLPIUlgZmac5jxErGd1xW8o9jV3UX5vE2af8dg6Ri4Rg/exec)
 [![Market](https://img.shields.io/badge/Market-IDX%20%2F%20BEI-emerald?style=for-the-badge)](https://www.idx.co.id/)
 [![Engine](https://img.shields.io/badge/Engine-Google%20Apps%20Script-orange?style=for-the-badge)](https://developers.google.com/apps-script)
-[![Version](https://img.shields.io/badge/Version-v2.9.0%20(Fase%2010)-purple?style=for-the-badge)](https://github.com/)
+[![Version](https://img.shields.io/badge/Version-v2.9.7%20(Fase%2011B)-purple?style=for-the-badge)](https://github.com/)
 
 > **Akses Langsung Web Dashboard:**  
 > 👉 [**Buka Web App OB IDX Screener Dashboard**](https://script.google.com/macros/s/AKfycbwxpoUPugh-U47w0pzYnyfeDRKLPIUlgZmac5jxErGd1xW8o9jV3UX5vE2af8dg6Ri4Rg/exec)
@@ -24,7 +24,7 @@
 
 ## 🌐 Gambaran Umum Sistem (System Architecture)
 
-**OB IDX Screener (v2.9.0 - Fase 10)** adalah platform analitik dan penyaring saham kuantitatif terintegrasi untuk seluruh emiten di **Bursa Efek Indonesia (IDX/BEI)**. 
+**OB IDX Screener (v2.9.7 - Fase 11B)** adalah platform analitik dan penyaring saham kuantitatif terintegrasi untuk seluruh emiten di **Bursa Efek Indonesia (IDX/BEI)**. 
 
 Platform ini menggabungkan filosofi multi-perspektif:
 - **Passive Fund / Value Investor**: Perlindungan modal (*capital preservation*), disiplin *Margin of Safety* (MoS), dan valuasi fundamental konservatif.
